@@ -3,12 +3,14 @@
     {
       "id" : 1,
       "title": "Doctors Appointment at 10:00 AM",
-      "description": "Dr. Smith will be at the office at 10:00 AM"
+      "description": "Dr. Smith will be at the office at 10:00 AM",
+      "done": true
     },
     {
       "id" : 2,
-      "title": "Water the plants",
-      "description": "dont forget to water the plants again!"
+      "title": "Water the dogs",
+      "description": "dont forget to water the plants again!",
+      "done": false
     }
   ]
 }

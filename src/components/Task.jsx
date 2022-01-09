@@ -8,12 +8,13 @@ const toggleTask = (e) => {
   console.log("Toggle task");
 }
 
-export default function Task() {
+export default function Task({title, description,done}) {
   return (
     <div className="task" onClick={toggleTask}>
       <div className="task-content">
-        <h2>Doctors Appointment</h2>
-        <p>Feb 5th at 2:30pm</p>
+        <h2>{title}</h2>
+        <p>{description}</p>
+        {done}
       </div>
       <Button text="Delete" action={deleteTask} />
     </div>
